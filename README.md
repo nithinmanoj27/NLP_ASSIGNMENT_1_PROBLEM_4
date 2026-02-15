@@ -1,24 +1,24 @@
 # Sports vs Politics Text Classification Using Machine Learning
 
-##  Project Overview
+## Problem Overview
 
-This project implements a text classification system that automatically categorizes text documents into **Sports** or **Politics**. The goal is to explore how different machine learning algorithms perform on textual data and compare their effectiveness using the same dataset and feature representation.
+This problem implements a text classification system that automatically categorizes text documents into **Sports** or **Politics**. The goal is to explore how different machine learning algorithms perform on textual data and compare their effectiveness using the same dataset and feature representation.
 
-The project demonstrates the complete workflow of a Natural Language Processing (NLP) task, including dataset preparation, feature extraction, model training, evaluation, and analysis of results.
+This problem demonstrates the complete workflow of a Natural Language Processing (NLP) task, including dataset preparation, feature extraction, model training, evaluation, and analysis of results.
 
 ---
 
-##  Problem Statement
+## Problem Statement
 
 With the increasing volume of digital text data, automatically classifying documents into categories is essential for organizing information efficiently.  
 
-In this project, we design a classifier that reads a text document and predicts whether it belongs to the **Sports** or **Politics** category. The system also compares multiple machine learning techniques to understand their performance differences.
+In this problem, we design a classifier that reads a text document and predicts whether it belongs to the **Sports** or **Politics** category. The system also compares multiple machine learning techniques to understand their performance differences.
 
 ---
 
-##  Dataset
+## Dataset
 
-The dataset used in this project is derived from the **BBC News Dataset**, which contains real news articles categorized into multiple domains.
+The dataset used in this problem is derived from the **BBC News Dataset**, which contains real news articles categorized into multiple domains.
 
 For this implementation:
 
@@ -34,20 +34,20 @@ government, policy, parliament, election, minister
 
 ---
 
-##  Methodology
+## Methodology
 
-The project follows the standard NLP pipeline:
+The problem follows the standard NLP pipeline:
 
-1. Data Collection
-2. Data Preprocessing
-3. Feature Extraction
-4. Model Training
-5. Model Evaluation
-6. Performance Comparison
+1. Data Collection  
+2. Data Preprocessing  
+3. Feature Extraction  
+4. Model Training  
+5. Model Evaluation  
+6. Performance Comparison  
 
 ---
 
-##  Feature Representation
+## Feature Representation
 
 Text data was converted into numerical features using **TF-IDF (Term Frequency–Inverse Document Frequency)**.
 
@@ -60,22 +60,22 @@ TF-IDF was chosen because:
 
 ---
 
-##  Machine Learning Models Used
+## Machine Learning Models Used
 
 Three different machine learning algorithms were implemented and compared:
 
-### 1️ Naive Bayes
+### 1️⃣ Naive Bayes
 A probabilistic classifier based on Bayes’ theorem. It performs well for text classification due to its ability to model word frequency distributions.
 
-### 2️ Logistic Regression
+### 2️⃣ Logistic Regression
 A linear classification algorithm that predicts class probabilities using a logistic function. It is simple yet effective for many NLP tasks.
 
-### 3️ Support Vector Machine (SVM)
+### 3️⃣ Support Vector Machine (SVM)
 A powerful classifier that finds the optimal decision boundary separating classes. It performs well in high-dimensional feature spaces.
 
 ---
 
-##  Results
+## Results
 
 The performance of each model was evaluated using **accuracy**.
 
@@ -91,40 +91,35 @@ Naive Bayes achieved the highest accuracy because it performs particularly well 
 
 ---
 
-##  How to Run the Project
+## How to Run the Problem
 
 ### Step 1 — Clone Repository
 
-
-### Step 2 — Navigate to Project Folder
-
+### Step 2 — Navigate to Folder
 
 ### Step 3 — Install Dependencies
 
 Make sure Python is installed. Then install required library:
 
-
 ### Step 4 — Run Classifier
-
 
 The program will train the models and display accuracy results.
 
 ---
 
-##  PROBLEM Structure
+## Problem Structure
 
-sports-politics-classifier
-│
-├── problem4_classifier.py # Main classification script
-├── sports.txt # Sports dataset
-├── politics.txt # Politics dataset
-├── B22CS066_prob4.pdf # Detailed project report
-└── README.md # Project documentation
-
+sports-politics-classifier  
+│  
+├── problem4_classifier.py   # Main classification script  
+├── sports.txt               # Sports dataset  
+├── politics.txt             # Politics dataset  
+├── B22CS066_prob4.pdf       # Detailed report  
+└── README.md                # Documentation  
 
 ---
 
-##  Limitations
+## Limitations
 
 - The dataset size is relatively small compared to real-world applications.
 - Some words may appear in both domains, leading to possible ambiguity.
@@ -133,7 +128,7 @@ sports-politics-classifier
 
 ---
 
-##  Future Improvements
+## Future Improvements
 
 - Use larger datasets for better generalization.
 - Experiment with n-gram features.
@@ -143,19 +138,19 @@ sports-politics-classifier
 
 ---
 
-##  Author
+## Author
 
 Yerra Nithin Manoj  
 Roll Number: B22CS066  
 
 ---
 
-##  Course
+## Course
 
 Natural Language Understanding — Assignment 1  
 
 ---
 
-##  Conclusion
+## Conclusion
 
-This project demonstrates how machine learning can be applied to solve text classification problems. By comparing multiple models and analyzing results, the study highlights the importance of dataset preparation and feature representation in achieving accurate predictions.
+This problem demonstrates how machine learning can be applied to classify text documents into sports and politics categories. By comparing multiple models and analyzing results, the study highlights the importance of dataset preparation and feature representation in achieving accurate predictions.
