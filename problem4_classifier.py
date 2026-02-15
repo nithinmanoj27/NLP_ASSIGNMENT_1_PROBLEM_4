@@ -1,6 +1,6 @@
 """
 SPORTS VS POLITICS CLASSIFIER
-This script trains 3 ML models and compares performance.
+
 """
 
 # importing TF-IDF vectorizer to convert text into numerical features
@@ -80,3 +80,4 @@ for name, model in models.items():
 
     # printing model name and accuracy rounded to 2 decimal places
     print(f"{name} Accuracy: {acc:.2f}")
+
