@@ -64,13 +64,13 @@ TF-IDF was chosen because:
 
 Three different machine learning algorithms were implemented and compared:
 
-### 1️⃣ Naive Bayes
+### 1️ Naive Bayes
 A probabilistic classifier based on Bayes’ theorem. It performs well for text classification due to its ability to model word frequency distributions.
 
-### 2️⃣ Logistic Regression
+### 2️ Logistic Regression
 A linear classification algorithm that predicts class probabilities using a logistic function. It is simple yet effective for many NLP tasks.
 
-### 3️⃣ Support Vector Machine (SVM)
+### 3️ Support Vector Machine (SVM)
 A powerful classifier that finds the optimal decision boundary separating classes. It performs well in high-dimensional feature spaces.
 
 ---
